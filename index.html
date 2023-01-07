@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+       }
+         input[type=submit] {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+       }
+       .f1{
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+        input[type=submit]:hover {
+            background-color: #5ce963;
+       }
+       input[type=number], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+       }
+
+
+    </style>
+</head>
+<body>
+    <div style="width: 500px; margin-left: 400px;" class="f1">
+        <h1 style="color: black; margin-left: 150px;">Html Css Form</h1>
+        <div >
+            <form action="">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last name..">
+                <label for="PhoneNumber">Phone Number</label>
+                <input type="number" name="PhoneNumber">
+                <label for="State">State</label>
+                <select name="State" id="State">
+                    <option value="">Select</option>
+                    <option value="Madhya Pardesh">Madhya Pardesh</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Maharastra">Maharastra</option>
+                    <option value="Chattishgarh">Chattishgarh</option>
+                    <option value="Jarkhand">Jarkhand</option>
+                    <option value="Gujrat">Gujrat</option>
+                    <option value="Uttar Pardesh">Uttar Pardesh</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Panjab">Panjab</option>
+                    <option value="Hariyana">Hariyana</option>
+                    <option value="Keral">Keral</option>
+                </select>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
